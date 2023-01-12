@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to house tab and root tab Controller
 final class RMTabViewController: UITabBarController {
     
     override func viewDidLoad() {
@@ -47,7 +48,6 @@ final class RMTabViewController: UITabBarController {
             [nav1, nav2, nav3, nav4],
             animated:true
         )
-        
         
     }
     
