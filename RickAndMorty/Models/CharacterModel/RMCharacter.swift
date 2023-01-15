@@ -8,7 +8,7 @@
 import Foundation
 
 /// Model for Character data
-struct Character: Codable {
+struct RMCharacter: Codable {
     let id: Int
     let name, species, type: String
     let status: RMCharacterStatus
